@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>User Management</title>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Signup</h1>
+
+    <div class="filter-section">
+      <label for="profession">Filter by Profession:</label>
+      <select id="profession">
+        <option value="">Select Profession</option>
+        <option value="developer">Developer</option>
+        <option value="admin">Admin</option>
+      </select>
+    </div>
+
+    <div class="user-section">
+      <h2>Users</h2>
+      <div id="users"></div>
+    </div>
+    <button id="filter-btn">Filter</button>
+    <h2>Add New User</h2>
+    <div class="add-user-section">
+      
+      <input type="text" id="name" placeholder="Name">
+      <input type="number" id="age" placeholder="Age">
+      <select id="new-profession">
+        <option value="">Select Profession</option>
+        <option value="developer">Developer</option>
+        <option value="admin">Admin</option>
+      </select>
+    </div>
+    <button id="add-user-btn">Add</button>
+
+  </div>
+  <div>
+    <p>due to health issue unable to complete..:-(</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

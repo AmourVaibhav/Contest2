@@ -1,0 +1,75 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: left;
+}
+
+.filter-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user-section {
+  margin-bottom: 20px;
+}
+
+.add-user-section {
+  display: flex;
+  align-items: center;
+}
+
+.add-user-section input[type="text"],
+.add-user-section input[type="number"],
+.add-user-section select {
+  margin-right: 10px;
+}
+
+.add-user-section button {
+  padding: 5px 10px;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.users-container {
+  margin-bottom: 20px;
+}
+
+.user-card {
+  background-color: black;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.user-card p {
+  margin: 0;
+  font-weight: bold;
+  color: white;
+}
+
+.user-card .user-details {
+  display: flex;
+  align-items: center;
+}
+
+.user-card .user-details p {
+  margin-right: 10px;
+}
+
+
+
